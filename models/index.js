@@ -1,12 +1,12 @@
-const User = require('./user');
-const Challenge = require('./challenge');
+const User = require('./User');
+const Challenge = require('./Challenge');
 const Forest = require('./forest');
 const Post = require('./post');
-const EduContent = require('./educontent');
-const Submission = require('./submission');
+const EduContent = require('./EduContent');
+const Submission = require('./Submission');
 const ChallengeSubmission = require('./challengeSubmission');
 
-// Export models with PascalCase names for consistency with Mongoose models
+// Export models with consistent naming
 module.exports = {
   User,
   Challenge,

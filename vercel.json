@@ -5,7 +5,12 @@
       "src": "index.js",
       "use": "@vercel/node",
       "config": {
-        "maxLambdaSize": "50mb"
+        "maxLambdaSize": "50mb",
+        "includeFiles": [
+          "models/**/*",
+          "routes/**/*",
+          "middleware/**/*"
+        ]
       }
     }
   ],
