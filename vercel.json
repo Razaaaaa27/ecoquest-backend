@@ -24,10 +24,10 @@
   },
   "public": false,
   "regions": ["sin1"],
-  "installCommand": "npm install --legacy-peer-deps",
+  "installCommand": "npm install",
   "build": {
     "env": {
-      "NPM_FLAGS": "--legacy-peer-deps"
+      "NODE_OPTIONS": "--preserve-symlinks"
     }
   }
 } 
