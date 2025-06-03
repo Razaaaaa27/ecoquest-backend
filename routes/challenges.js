@@ -1,5 +1,5 @@
 const express = require('express');
-const Challenge = require('../models/challenge');
+const Challenge = require('../models/Challenge');
 const User = require('../models/User');
 const { authenticate, optionalAuth, requireAdmin } = require('../middleware/auth');
 const { validateChallenge } = require('../middleware/validation');
