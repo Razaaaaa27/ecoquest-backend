@@ -1,6 +1,6 @@
 const express = require('express');
 const jwt = require('jsonwebtoken');
-const User = require('../models/user');
+const User = require('../models/User');
 const Forest = require('../models/forest');
 const { validateRegistration, validateLogin } = require('../middleware/validation');
 const { authenticate } = require('../middleware/auth');
