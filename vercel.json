@@ -23,5 +23,11 @@
     "NODE_ENV": "production"
   },
   "public": false,
-  "regions": ["sin1"]
+  "regions": ["sin1"],
+  "installCommand": "npm install --legacy-peer-deps",
+  "build": {
+    "env": {
+      "NPM_FLAGS": "--legacy-peer-deps"
+    }
+  }
 } 
