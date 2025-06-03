@@ -7,9 +7,12 @@
       "config": {
         "maxLambdaSize": "50mb",
         "includeFiles": [
-          "models/**/*",
-          "routes/**/*",
-          "middleware/**/*"
+          "models/*.js",
+          "models/**/*.js",
+          "routes/*.js",
+          "routes/**/*.js",
+          "middleware/*.js",
+          "middleware/**/*.js"
         ]
       }
     }
@@ -32,7 +35,7 @@
   "installCommand": "npm install",
   "build": {
     "env": {
-      "NODE_OPTIONS": "--preserve-symlinks"
+      "NODE_OPTIONS": "--preserve-symlinks --preserve-case"
     }
   }
 } 
